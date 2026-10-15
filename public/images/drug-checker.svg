@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="medBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#041f1e" />
+      <stop offset="100%" stop-color="#020d0e" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="360" fill="url(#medBg)" />
+
+  <g transform="translate(50, 40)">
+    <rect width="500" height="260" rx="12" fill="#082b2a" stroke="#0d9488" stroke-width="1.5" />
+    
+    <text x="25" y="35" font-family="sans-serif" font-size="14" fill="#2dd4bf" font-weight="bold">AI MEDICINE INTERACTION CHECKER</text>
+    <rect x="360" y="18" width="115" height="22" rx="11" fill="#134e4a" stroke="#2dd4bf" stroke-width="1" />
+    <text x="375" y="32" font-family="sans-serif" font-size="9" fill="#99f6e4" font-weight="bold">PLANNED CONCEPT</text>
+
+    <g transform="translate(25, 60)">
+      <rect width="180" height="32" rx="6" fill="#042020" stroke="#115e59" stroke-width="1" />
+      <text x="12" y="20" font-family="sans-serif" font-size="11" fill="#ccfbf1">Drug A: Ibuprofen (400mg)</text>
+
+      <text x="195" y="21" font-family="sans-serif" font-size="14" fill="#2dd4bf" font-weight="bold">+</text>
+
+      <rect x="220" width="180" height="32" rx="6" fill="#042020" stroke="#115e59" stroke-width="1" />
+      <text x="12" y="20" font-family="sans-serif" font-size="11" fill="#ccfbf1">Drug B: Aspirin (81mg)</text>
+    </g>
+
+    <g transform="translate(25, 110)">
+      <rect width="450" height="85" rx="8" fill="#450a0a" stroke="#ef4444" stroke-width="1.5" />
+      <text x="20" y="28" font-family="sans-serif" font-size="12" fill="#fca5a5" font-weight="bold">⚠️ MODERATE INTERACTION WARNING</text>
+      <text x="20" y="48" font-family="sans-serif" font-size="10" fill="#fecaca">Concomitant use may increase risk of gastrointestinal toxicity and reduce</text>
+      <text x="20" y="64" font-family="sans-serif" font-size="10" fill="#fecaca">antiplatelet effectiveness of aspirin. Clinical consultation advised.</text>
+    </g>
+
+    <g transform="translate(25, 210)">
+      <rect width="450" height="32" rx="6" fill="#042020" />
+      <text x="15" y="20" font-family="monospace" font-size="8.5" fill="#5eead4">Disclaimer: Strictly educational &amp; research concept. Not professional medical advice.</text>
+    </g>
+  </g>
+</svg>
